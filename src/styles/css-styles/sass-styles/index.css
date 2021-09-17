@@ -1,0 +1,37 @@
+.container {
+  height: calc($base-size * 3);
+  color: red;
+}
+.container > div {
+  height: calc(100vh - 70px);
+  color: red;
+}
+
+div {
+  color: black;
+  font-size: large;
+}
+
+.container-nav {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: grey;
+}
+
+.home {
+  background-color: blue;
+}
+
+.portfolio {
+  background-color: blueviolet;
+}
+
+.contact {
+  background-color: brown;
+}
+
+.footer {
+  height: 70px;
+  background-color: chocolate;
+}

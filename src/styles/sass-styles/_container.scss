@@ -1,0 +1,8 @@
+.container {
+	height: calc($base-size * 3);
+	color: $font-color;
+	& > div {
+		height: $base-size;
+		color: $font-color;
+	}
+}
