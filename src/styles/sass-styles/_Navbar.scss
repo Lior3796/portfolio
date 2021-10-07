@@ -2,5 +2,17 @@
 	height: 70px;
 	width: 100%;
 	position: fixed;
-	background-color: grey;
+	z-index: 2;
+	background-color: #f0e5cf;
+	top: 0;
+	& > li > a {
+		color: white;
+	}
+}
+
+.wrapper {
+	padding: 1%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }

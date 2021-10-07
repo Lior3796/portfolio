@@ -6,7 +6,7 @@ import { Contact } from "../../pages/contact/Contact";
 
 export const Container = () => {
 	return (
-		<div className="container">
+		<div className="container my-5 container-app" id="container">
 			<Home />
 			<Portfolio />
 			<Contact />

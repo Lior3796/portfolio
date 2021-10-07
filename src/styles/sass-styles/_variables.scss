@@ -1,3 +1,21 @@
 $base-size: calc(100vh - 70px);
-$font-color: red;
 $footer-size: 70px;
+$font-size: 1rem;
+$bg-color: linear-gradient(45deg, #1500508c, rgba(255, 255, 255, 0.582));
+$font-base: "Gotham", sans-serif;
+
+$font-sizes: (
+	"sm": $font-size,
+	"md": $font-size * 2,
+	"lg": $font-size * 3,
+	"xl": $font-size * 4,
+	"xxl": $font-size * 5,
+	"xxxl": $font-size * 6,
+);
+
+$colors: (
+	"red": #ff0000,
+	"blue": #150050,
+	"orange": #ffb319,
+	"green": #b1e693,
+);

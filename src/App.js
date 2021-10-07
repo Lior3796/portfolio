@@ -6,9 +6,10 @@ import { Footer } from "./components/features/footer/Footer";
 
 function App() {
 	return (
-		<div>
+		<div className="app-container">
 			<Navbar />
 			<Container />
+
 			<Footer />
 		</div>
 	);
