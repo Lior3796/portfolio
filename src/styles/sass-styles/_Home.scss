@@ -1,3 +1,40 @@
 .home {
-	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: $font-base;
+	position: relative;
+
+	.custom-shape-divider-bottom-1632256061 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		line-height: 0;
+	}
+
+	.custom-shape-divider-bottom-1632256061 svg {
+		position: relative;
+		display: block;
+		width: calc(108% + 1.3px);
+		height: 98px;
+	}
+
+	.custom-shape-divider-bottom-1632256061 .shape-fill {
+		fill: #4b6587;
+	}
+}
+.img-container {
+	flex: 0.5;
+	width: 80%;
+	object-fit: contain;
+	img {
+		clip-path: circle();
+		width: 100%;
+		background-image: none;
+	}
+}
+.text-container {
+	flex: 0.5;
 }
