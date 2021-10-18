@@ -76,11 +76,10 @@
 }
 .header {
   width: 100%;
-  padding: 25px;
   text-align: left;
   font-weight: 700;
   line-height: 0.8;
-  font-size: 6rem;
+  font-size: 5rem;
   background-size: 600%;
   -webkit-background-clip: text;
   color: transparent;
@@ -92,17 +91,17 @@
 .app-container {
   height: 100vh;
 }
-.app-container .container {
+.app-container .container1 {
   position: relative;
   top: 70px;
   scroll-snap-type: y mandatory;
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
-.app-container .container::-webkit-scrollbar {
+.app-container .container1::-webkit-scrollbar {
   display: none;
 }
-.app-container .container > * {
+.app-container .container1 > * {
   height: calc(100vh - 70px);
   scroll-snap-align: start;
 }
@@ -153,7 +152,7 @@
 
 .img-container {
   flex: 0.5;
-  width: 80%;
+  width: 50%;
   object-fit: contain;
 }
 .img-container img {
@@ -163,11 +162,51 @@
 }
 
 .text-container {
-  flex: 0.5;
+  flex: 0.6;
 }
 
 .portfolio {
   background-color: #4b6587;
+  width: 100%;
+}
+
+.porfolio-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  height: 100%;
+}
+
+.projects {
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+  min-height: 40%;
+  width: 35%;
+  background-color: white;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-block {
+  width: 30%;
+  min-height: 300px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 0 10px 10px black;
+}
+.icon-block p {
+  text-align: center;
+}
+.icon-block div > i {
+  width: 100%;
+  text-align: center;
 }
 
 .custom-shape-divider-bottom-1632256061 .shape-fill {

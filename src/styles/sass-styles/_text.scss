@@ -9,11 +9,12 @@
 
 @mixin headers() {
 	width: 100%;
-	padding: 25px;
+
 	text-align: left;
 	font-weight: 700;
+
 	line-height: 0.8;
-	font-size: map-get($font-sizes, "xxxl");
+	font-size: map-get($font-sizes, "xxl");
 	background-size: 600%;
 	-webkit-background-clip: text;
 	color: transparent;
