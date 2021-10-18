@@ -1,10 +1,12 @@
 import React from "react";
 import profile from "../../../../src/Linkedin picture.jpeg";
+import Waves from "../../features/waves/Waves";
 export const Home = () => {
 	return (
-		<div className="home bg-dark" id="home" >
+		<div className="home bg-light " id="home" >
 			<div className="text-container">
 				<p className="header">Lior Solomon </p>
+				<p className="header">Web developer</p>
 				<div>
 					<button className="btn-orange">contact me</button>
 					<button className="btn-green">contact me</button>
@@ -14,7 +16,7 @@ export const Home = () => {
 				<img src={profile} />
 			</div>
 
-			<div class="custom-shape-divider-bottom-1632256061 bg-dark">
+			<div class="custom-shape-divider-bottom-1632256061 bg-light">
 				<svg
 					data-name="Layer 1"
 					xmlns="http://www.w3.org/2000/svg"

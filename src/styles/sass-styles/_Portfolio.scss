@@ -1,3 +1,39 @@
 .portfolio {
 	background-color: #4b6587;
+	width: 100%;
+}
+.porfolio-container {
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	height: 100%;
+}
+.projects {
+	box-shadow: 5px 5px 10px black;
+	text-align: center;
+	min-height: 40%;
+	width: 35%;
+	background-color: white;
+}
+.icons-container {
+	display: flex;
+	justify-content: space-around;
+}
+.icon-block {
+	width: 30%;
+	min-height: 300px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	box-shadow: 0 10px 10px black;
+	p {
+		text-align: center;
+	}
+	div > i {
+		width: 100%;
+		text-align: center;
+	}
 }
